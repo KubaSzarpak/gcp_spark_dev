@@ -149,6 +149,3 @@ Projekt zawiera przykład pipeline GitHub Actions (`github_actions_prezentacja.m
 - `prezentacja.md` — slajdy szkolenia: Terraform, GCP, architektura Spark, demo
 - `prezentacja_gcloud_login.md` — krok po kroku: logowanie gcloud
 - `prezentacja_iac_claude.md` — IaC z pomocą AI
-
-## Test commit
-Test push to trigger GitHub Actions (2026-06-02)

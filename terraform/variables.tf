@@ -1,4 +1,3 @@
-# Test workflow trigger
 variable "project_id" {
   description = "ID projektu GCP"
   type        = string

@@ -220,4 +220,7 @@ jobs:
             gs://spark-data-dev-0f2bf6/scripts/word_count.py \
             --cluster=spark-training-cluster \
             --region=europe-central2 \
-            --project=${{ secrets.GCP_PROJECT_ID }}
+            --project=${{ secrets.GCP_PROJECT_ID }} \
+            -- \
+            gs://spark-data-dev-0f2bf6/input \
+            gs://spark-data-dev-0f2bf6/output

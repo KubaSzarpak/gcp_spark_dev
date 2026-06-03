@@ -214,6 +214,11 @@ jobs:
           gsutil cp scripts/word_count.py \
             gs://spark-data-dev-0f2bf6/scripts/word_count.py
 
+      - name: Create test input data
+        run: |
+          echo "hello world spark dataproc gcp" > /tmp/input.txt
+          gsutil cp /tmp/input.txt gs://spark-data-dev-0f2bf6/input/input.txt
+
       - name: Submit PySpark job
         run: |
           gcloud dataproc jobs submit pyspark \

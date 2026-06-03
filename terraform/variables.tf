@@ -54,5 +54,5 @@ variable "num_workers" {
 variable "spark_version" {
   description = "Wersja obrazu Dataproc (Spark + Hadoop)"
   type        = string
-  default     = "2.1-debian12" # Spark 3.4, Hadoop 3.3
+  default     = "2.1-debian11" # Spark 3.4, Hadoop 3.3
 }
